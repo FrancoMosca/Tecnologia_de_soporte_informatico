@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <title> datos </title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<button id="botonCsv" onclick="mostrarTablaCSV()"> datos de archivo .csv </button>
+<button id="botonJSon" onclick="mostrarTablaJSON()"> datos de archivo .json </button>
+
+<table id="tablajson" class="table table-striped" style="display: none">
+  <tr>
+    <th>Nombre Completo</th>
+    <th>Fuente </th>
+    <th>Iso Id</th>
+    <th>Nombre</th>
+    <th>id</th>
+    <th>categoria</th>
+    <th>iso Nombre</th>
+    <th>centroide</th>
+  </tr>
+</table>
+
+<table id="tablacsv" class="table table-striped" style="display: none">
+  <tr>
+    <th>Autorizado por</th>
+    <th>DNI</th>
+    <th>Apellido</th>
+    <th>Nombre</th>
+    <th>Reparticion</th>
+    <th>Cargo</th>
+    <th>Dosis</th>
+    <th>Fecha de aplicacion</th>
+    <th>Lugar de aplicacion</th>
+  </tr>
+</table>
+
+<script>
+
+  function mostrarTablaCSV(){
+
+    $("#botonCsv").hide();
+    $("#botonJSon").hide();
+
+    $.ajax({
+      url: "http://localhost:8080/api/datos/csv",
+      type: 'GET'
+    })
+            .done(function (data) {
+
+              console.log(data);
+
+              let datos = data.casos;
+              let contenido = "";
+              for (var i = 0; i < datos.length; i++){
+                contenido = "<tr>\n";
+                contenido += "<td>" + datos[i].Autorizado_Por + "</td>";
+                contenido += "<td>" + datos[i].Documento_identidad + "</td>";
+                contenido += "<td>" + datos[i].Apellido + "</td>";
+                contenido += "<td>" + datos[i].Nombre + "</td>";
+                contenido += "<td>" + datos[i].Reparticion + "</td>";
+                contenido += "<td>" + datos[i].Cargo + "</td>";
+                contenido += "<td>" + datos[i].Dosis + "</td>";
+                contenido += "<td>" + datos[i].Fecha_Aplicacion + "</td>";
+                contenido += "<td>" + datos[i].Lugar_Aplicacion + "</td>";
+
+                $("#tablacsv").append(contenido);
+              }
+
+              $("#tablacsv").show();
+
+
+            })
+            .fail(function () {
+              console.log("error, no se pudo obtener datos");
+            });
+  }
+
+  function mostrarTablaJSON() {
+
+    $("#botonCsv").hide();
+    $("#botonJSon").hide();
+
+    $.ajax({
+      url: "http://localhost:8080/api/datos/json",
+      type: 'GET'
+    })
+            .done(function (data) {
+
+              let datos = data.provincias;
+              let contenido = "";
+              for (var i = 0; i < datos.length; i++){
+                contenido = "<tr>\n";
+                contenido += "<td>" + datos[i].nombre_completo + "</td>";
+                contenido += "<td>" + datos[i].fuente + "</td>";
+                contenido += "<td>" + datos[i].iso_id + "</td>";
+                contenido += "<td>" + datos[i].nombre + "</td>";
+                contenido += "<td>" + datos[i].id + "</td>";
+                contenido += "<td>" + datos[i].categoria + "</td>";
+                contenido += "<td>" + datos[i].iso_nombre + "</td>";
+                contenido += "<td>" + datos[i].centroide + "</td>";
+
+                $("#tablajson").append(contenido);
+              }
+
+              $("#tablajson").show();
+
+            })
+            .fail(function () {
+              console.log("error, no se pudo obtener datos");
+            });
+  }
+
+</script>
+
+</body>
+
+</html>
