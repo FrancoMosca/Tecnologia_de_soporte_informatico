@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcb837bf-dd6a-4832-beb8-46ae2ac8a86e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/TP8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/notebooks/main.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP8/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/main.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Tecnologia_de_soporte_informatico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/classes/java/main/com/example/demo/Controlador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/classes/java/main/com/example/demo/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/classes/java/main/com/example/demo/ManejadorDeArchivosCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/classes/java/main/com/example/demo/personalVacunado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/files/personal_estrategico_vacunado_covid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/files/provincias.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/static/css/inicio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/static/img/iconoWetransfer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/resources/main/templates/inicio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/java/com/example/demo/Controlador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/java/com/example/demo/ManejadorDeArchivosCSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/java/com/example/demo/personalVacunado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/files/personal_estrategico_vacunado_covid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/files/provincias.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/static/css/inicio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/static/img/iconoWetransfer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/main/resources/templates/inicio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiRest/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20z1D47r8ImGzqtT0iTVKIB5oDO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TP99" type="PythonConfigurationType" factoryName="Python">
+      <module name="TP99" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="TP99" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcb837bf-dd6a-4832-beb8-46ae2ac8a86e" name="Changes" comment="" />
+      <created>1637032479687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637032479687</updated>
+      <workItem from="1637032493687" duration="798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
